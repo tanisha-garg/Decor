@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+body{
+    background-color:#222222;
+}
+img{
+    /* width: 100%;
+    height: 100%;
+    position: relative; */
+    max-width: 100%;
+    clear: both;
+    position: relative;
+    z-index: 0;
+    align-content: center;
+    }
+.bg-head{
+    margin: 0px auto;
+    text-align: center;
+    color: #644a3b;
+    font-size: 100px;
+    /* font-family: 'Fredericka the Great', cursive; */
+    font-family: 'Ribeye Marrow', cursive;
+}
+.container{
+    margin: 0px auto;
+    width: 100%;
+}
+hr{
+    background-color: #aa866e;
+    width: 30%;
+}
+.con-heading{
+    color: #d8b094;
+    text-align: center;
+}
+.des-row{
+    display: inline-block;
+}
+.des{
+    color: white;
+    text-align: center;
+}
+.mid-heading{
+    color: #ba8d6e;
+    text-align: center;
+    font-size: 60px;
+}
+.car-cap{
+    color: black;
+    text-align: justify;
+    padding: 20px 20px;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: black 1px solid;
+}
+.carousel-indicators li:not(:last-child) {
+    margin-right: 20px;
+  }
+.carousel-indicators .active{
+    background-color: black;
+}
+.my-slider .carousel-indicators {
+    top: 10px;
+    justify-content:flex-start;
+    margin:0;
+    padding-left:15px;
+    padding-right:15px;
+  }
+.capabilities{
+    background-color: #fedcc6;
+    padding: 100px 100px;
+}
+.des-img{
+    background: url('https://via.placeholder.com/200') no-repeat;
+    background-size: cover;
+}
+.wrap-decor{
+    margin-left: 50px;
+}
+.decor-news{
+    margin-top: -50px;
+}
+.decor-news1{
+    margin-top: -90px;
+}
+.n-indicator{
+    border-radius: 100%;
+    border: 1px solid #d8b094;
+    color: #d8b094;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.n-indicator:hover{
+    color: #e76e29;
+    border: 1px solid #e76e29;
+}
+.pr-ne{
+    display: inline-block;
+}
+@media screen and (max-width: 600px){
+    .mob-hide{
+        display: none;
+    }
+}
